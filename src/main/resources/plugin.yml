@@ -1,0 +1,15 @@
+name: RandomLight
+version: '${project.version}'
+main: gasnic.randomlight.RandomLight
+api-version: '1.20'
+authors: [ Gasnic ]
+description: RandomLight
+website: https://github.com/OLOMIK/RandomLight
+
+commands:
+  rlight:
+    description: Generate random light
+    usage: /rlight <radius>
+  rlreload:
+    description: Reload config
+    usage: /rlreload

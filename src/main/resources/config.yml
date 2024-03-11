@@ -1,0 +1,22 @@
+# RlLight plugin by gasnic
+# Support: https://dc.mythicalshop.pl
+# Versions: 1.8-1.20
+
+messages:
+  playeronly: "this command cannot be used as console."
+  nopermission: "you do not have permission to use this command."
+  maxradius: "You must change the radius in config!"
+  reload: "reloaded config."
+
+# here you can set your own message names
+permissions:
+  start: "rlight.start"
+  reload: "rlight.reload"
+
+# here you can set your own permission names
+maxRadius: 100
+# maxRadius is the maximum range at which the plugin will place light blocks
+
+#Permissions: (You can change that)
+# rlight.start
+# rlight.reload
