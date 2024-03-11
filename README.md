@@ -1,16 +1,16 @@
 # RandomLight
-### RandomLight - Plugin do minecraft umożliwiający oświetlenie terenu w wybranym zasięgu
+### RandomLight - A Minecraft plugin enabling terrain lighting within a selected range
 
-## Dlaczego Randomlight?
-RandomLight to plugin, który działa na wszystkich wersjach, na których dostępny jest blok światła, dodatkowo jest on w pełni konfigurowalny
+## Why RandomLight?
+RandomLight is a plugin that works on all versions where the light block is available, additionally, it is fully configurable.
 
-## Wsparcie
-Aby uzyskać wsparcie, dołącz na naszego [Discorda](https://discord.gg/7jqMGp535d)
+## Support
+To get support, join our [Discord](https://discord.gg/7jqMGp535d).
 
-## Kompatybilność
-Nasz plugin dostępny jest na wszystkie wersje Minecraft obsługujące blok światła (1.17-1.20.4)
+## Compatibility
+Our plugin is available for all Minecraft versions that support the light block (1.17-1.20.4).
 
-## Konfiguracja
+## Configuration
 
 ```yaml
 # RlLight plugin by gasnic
