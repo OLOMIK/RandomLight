@@ -37,20 +37,20 @@ public final class RandomLight extends JavaPlugin {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (command.getName().equalsIgnoreCase("rlight")) {
+            if (args.length == 0) {
+                sender.sendMessage(config.getString("messages.usage").replace("&", "§"));
+                return true;
+            }
             if (!sender.hasPermission(config.getString("permissions.start"))) {
                 sender.sendMessage(config.getString("messages.nopermission").replace("&", "§"));
                 return true;
             }
 
             if (!(sender instanceof Player)) {
-                sender.sendMessage(config.getString("messages.playeronly".replace("&", "§")));
+                sender.sendMessage(config.getString("messages.playeronly").replace("&", "§"));
                 return true;
             }
 
-            if (args.length == 0) {
-                sender.sendMessage(config.getString("messages.usage").replace("&", "§"));
-                return true;
-            }
 
             int radius = Integer.parseInt(args[0]);
             int maxRadius = config.getInt("maxRadius");
